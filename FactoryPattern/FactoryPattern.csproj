@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\AbstractFactory.cs" />
     <Compile Include="Factories\SimpleFactory.cs" />
     <Compile Include="Model\CPU\Core-i5.cs" />
     <Compile Include="Model\CPU\Core-i7.cs" />
