@@ -9,7 +9,7 @@
 
         public string GetSpecs()
         {
-            return string.Format("Specyfikacja monitora {0} {1}:\n Rozdzielczość: {2}\n Odświeżanie: {3}", Make, Model, Resolution, RefreshRate);
+            return string.Format("Specyfikacja monitora {0} {1}:\n Rozdzielczość: {2}\n Odświeżanie: {3}Hz", Make, Model, Resolution, RefreshRate);
         }
     }
 }

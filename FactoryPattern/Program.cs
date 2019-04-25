@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FactoryPattern.Factories;
+﻿using FactoryPattern.Factories;
+using System;
 
 namespace FactoryPattern
 {
@@ -14,6 +10,16 @@ namespace FactoryPattern
             foreach (GPUType type in Enum.GetValues(typeof(GPUType)))
             {
                 Console.WriteLine(SimpleFactory.Instance.CreateGPU(type).Benchmark());
+            }
+
+            foreach (CPUType type in Enum.GetValues(typeof(CPUType)))
+            {
+                Console.WriteLine(SimpleFactory.Instance.CreateCPU(type).Benchmark());
+            }
+
+            foreach (MonitorType type in Enum.GetValues(typeof(MonitorType)))
+            {
+                Console.WriteLine(SimpleFactory.Instance.CreateMonitor(type).GetSpecs());
             }
 
             Console.ReadKey();

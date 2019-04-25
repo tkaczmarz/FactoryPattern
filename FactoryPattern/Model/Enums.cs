@@ -8,10 +8,16 @@
 
 public enum CPUType
 {
-
+    Core_i5,
+    Core_i7,
+    Ryzen3,
+    Ryzen7
 }
 
 public enum MonitorType
 {
-
+    Dell,
+    Asus,
+    AOC,
+    Acer
 }

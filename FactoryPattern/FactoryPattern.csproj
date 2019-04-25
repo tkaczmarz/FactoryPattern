@@ -44,13 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factories\SimpleFactory.cs" />
+    <Compile Include="Model\CPU\Core-i5.cs" />
+    <Compile Include="Model\CPU\Core-i7.cs" />
     <Compile Include="Model\CPU\CPU.cs" />
+    <Compile Include="Model\CPU\Ryzen3.cs" />
+    <Compile Include="Model\CPU\Ryzen7.cs" />
     <Compile Include="Model\Enums.cs" />
     <Compile Include="Model\GPU\GPU.cs" />
     <Compile Include="Model\GPU\GTX1060.cs" />
     <Compile Include="Model\GPU\RadeonVII.cs" />
     <Compile Include="Model\GPU\RTX2080.cs" />
     <Compile Include="Model\GPU\RX580.cs" />
+    <Compile Include="Model\Monitors\Acer.cs" />
+    <Compile Include="Model\Monitors\AOC.cs" />
+    <Compile Include="Model\Monitors\Asus.cs" />
+    <Compile Include="Model\Monitors\Dell.cs" />
+    <Compile Include="Model\Monitors\Monitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
